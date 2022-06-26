@@ -1,0 +1,147 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.wrapper {
+    height: 488px;
+    width: 654px;
+    margin: 188px auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.product-img img {
+    float: left;
+    width: 327px;
+    height: 488px;
+    border-radius: 10px 0 0 10px;
+}
+
+.product-info {
+    float: left;
+    height: 488px;
+    width: 327px;
+    border-radius: 0 10px 10px 0px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.product-text {
+    height: 300px;
+    width: 327px;
+}
+
+.product-text h2 {
+    margin: 0 0 0px 38px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.2em;
+}
+
+.product-text h1 {
+    margin: 0 0 0 38px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 34px;
+    color: hsl(212, 21%, 14%);
+}
+
+.product-text h1,
+.product-price-btn p {
+    font-family: 'Fraunces', serif;
+}
+
+.product-text p {
+    height: 125px;
+    margin: 0 0 0 38px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.7em;
+    font-size: 14px;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.product-price-btn {
+    height: 103px;
+    width: 327px;
+    margin-top: 17px;
+    position: relative;
+}
+
+.product-price-btn p {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    height: 50px;
+    font-family: 'Fraunces', serif;
+    margin: 0 0 0 38px;
+    font-size: 28px;
+    font-weight: lighter;
+    color: hsl(158, 36%, 37%);
+}
+
+.product-price-btn1 p {
+    display: inline;
+    position: absolute;
+    top: 30px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 0px 0px 170px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: hsl(158, 36%, 37%);
+    text-decoration: line-through;
+}
+
+.product-price-btn button {
+    display: inline-block;
+    height: 50px;
+    width: 250px;
+    margin: 75px 0px 0px 38px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    cursor: pointer;
+    outline: none;
+}
+
+.icon img {
+    margin-bottom: -4px;
+}
+
+.text-hover {
+    padding-bottom: 7px;
+}
+
+.product-price-btn button:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+
+.text-hover:hover {
+    font-weight: 500;
+}
+
+@media screen and (max-width:375px) {
+    .wrapper {
+        height: 555px;
+        width: 365px;
+        margin: 10px auto;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .product-img img {
+        height: 555px;
+        width: 355px;
+    }
+}
